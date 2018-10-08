@@ -1,0 +1,6 @@
+version: "3"
+services:
+  musicbot:
+    build: ./build/
+    volumes:
+      - ./data/config:/usr/src/musicbot/config
